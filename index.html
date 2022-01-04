@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="shortcut icon" href="assets/img/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="game.js" defer></script>
+  </head>
+
+  <body>
+    <main id="main">
+      <h1>Rock Paper Scissors</h1>
+
+      <div class="container buttons">
+        <button class="btn rock" aria-label="Rock"></button>
+        <button class="btn paper" aria-label="Paper"></button>
+        <button class="btn scissors" aria-label="Scissors"></button>
+      </div>
+
+      <div id="rounds" class="container">
+        <p id="current-round">round 1</p>
+        <div class="round-icons">
+          <div id="round-1" class="circle"></div>
+          <div id="round-2" class="circle"></div>
+          <div id="round-3" class="circle"></div>
+          <div id="round-4" class="circle"></div>
+          <div id="round-5" class="circle"></div>
+        </div>
+      </div>
+
+      <div class="log"></div>
+
+      <div id="results" class="container">
+        <div class="game-score">
+          <div class="player-container">
+            <img class="player" src="/images/player.png" alt="Player"/>
+            <div id="player-choice" class="choice">?</div>
+          </div>
+          <div class="score-container">
+            <span id="player-score" class="score">0</span>
+            <span id="computer-score" class="score">0</span>
+          </div>
+          <div class="player-container">
+            <div id="computer-choice" class="choice">?</div>
+            <img class="player" src="/images/computerr.jfif" alt="Computer"/>
+          </div>
+        </div>
+
+        <div class="final-result"></div>
+      </div>
+    </main>
+  </body>
+</html>

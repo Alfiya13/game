@@ -68,15 +68,15 @@ h1 {
 }
 
 .rock {
-    background-image: url("/images/rock.jfif");
+    background-image: url("./image/rock.jfif");
 }
 
 .paper {
-    background-image: url("/images/paper.jfif");
+    background-image: url("./image/paper.jfif");
 }
 
 .scissors {
-    background-image: url("/images/scissorss.jfif");
+    background-image: url("./image/scissorss.jfif");
 }
 
 #rounds {
